@@ -1,0 +1,21 @@
+_id: req_92c0df6e5c9b46efa760d6c00250299a
+type: Request
+parentId: fld_580ee49f84134a08b724120463ff0f84
+modified: 1669926047730
+created: 1669852398314
+url: "{{ _['project-bd2'] }}/games"
+name: GetGames
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669852335935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_c6781578e9f1df73a7433afcbb0c82382f715349
+type: Environment
+parentId: wrk_3dce4b91c72c4b4cbd95047629dfdba2
+modified: 1669852253535
+created: 1669852201602
+name: Base Environment
+data:
+  project-bd2: http://localhost:3050/api
+dataPropertyOrder:
+  "&":
+    - project-bd2
+color: null
+isPrivate: false
+metaSortKey: 1669852201602

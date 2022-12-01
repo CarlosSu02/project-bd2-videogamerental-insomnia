@@ -1,0 +1,21 @@
+_id: req_89553f2213c74349967f3ed06619011c
+type: Request
+parentId: fld_0df5095b0c374c0a97bc9d41f89f0ec2
+modified: 1669926044631
+created: 1669852355746
+url: "{{ _['project-bd2'] }}/companies"
+name: GetCompanies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669852322550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

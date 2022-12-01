@@ -1,0 +1,21 @@
+_id: req_7c4d49e8d4bb44adbd6f22de5fc5ff9e
+type: Request
+parentId: fld_aa6c54ed769345f483c64267e2ad3b82
+modified: 1669852406533
+created: 1669852393722
+url: "{{ _['project-bd2'] }}/users"
+name: GetUsers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669852393722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
