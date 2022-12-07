@@ -1,0 +1,31 @@
+_id: req_e3567438e85747e1acf06addad59b4a9
+type: Request
+parentId: fld_304622cc9633434c89c58398e4d14351
+modified: 1670449268006
+created: 1670435255591
+url: "{{ _['project-bd2'] }}/auth/change_password"
+name: ChangePassword
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "testt@gmail.com",
+    	"password": "testt",
+    	"new_password": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ec1094e73a5543b58d18a5989908e3b4
+authentication: {}
+metaSortKey: -1670366637282.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,17 +1,17 @@
-_id: req_7c4d49e8d4bb44adbd6f22de5fc5ff9e
+_id: req_873e13efaab1479f8d1c197d9c313286
 type: Request
-parentId: fld_aa6c54ed769345f483c64267e2ad3b82
-modified: 1670374043885
-created: 1669852393722
-url: "{{ _['project-bd2'] }}/customers"
-name: GetCustomers
+parentId: fld_304622cc9633434c89c58398e4d14351
+modified: 1670452678479
+created: 1670452645870
+url: "{{ _['project-bd2'] }}/auth/signout"
+name: Signout
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669852393722
+metaSortKey: -1670366637232.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

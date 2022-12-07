@@ -1,17 +1,17 @@
-_id: req_7c4d49e8d4bb44adbd6f22de5fc5ff9e
+_id: req_bceb107649ad4e808349efdd994c788b
 type: Request
-parentId: fld_aa6c54ed769345f483c64267e2ad3b82
-modified: 1670374043885
-created: 1669852393722
-url: "{{ _['project-bd2'] }}/customers"
-name: GetCustomers
+parentId: fld_580ee49f84134a08b724120463ff0f84
+modified: 1670350736052
+created: 1670347492067
+url: "{{ _['project-bd2'] }}/games/6383f26abf3f5893437ee2e4"
+name: GetGameById
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669852393722
+metaSortKey: -1669852335885
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

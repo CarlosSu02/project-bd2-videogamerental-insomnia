@@ -1,17 +1,17 @@
-_id: req_7c4d49e8d4bb44adbd6f22de5fc5ff9e
+_id: req_f8ff33f005374c099ed920bbb2929bbd
 type: Request
-parentId: fld_aa6c54ed769345f483c64267e2ad3b82
-modified: 1670374043885
-created: 1669852393722
-url: "{{ _['project-bd2'] }}/customers"
-name: GetCustomers
+parentId: fld_a52162491a344b70b49f18aa18493426
+modified: 1670387967022
+created: 1670387659549
+url: "{{ _['project-bd2'] }}/roles"
+name: GetRoles
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1669852393722
+metaSortKey: -1670387659549
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

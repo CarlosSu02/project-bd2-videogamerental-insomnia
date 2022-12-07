@@ -1,0 +1,23 @@
+_id: req_c061856936d44789af6df1edfd4cb3bf
+type: Request
+parentId: fld_838ee298adf14b698535a94060bbcb69
+modified: 1670450263612
+created: 1670383702905
+url: "{{ _['project-bd2'] }}/user/profile"
+name: Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% request 'cookie', 'access_token', 0 %}"
+metaSortKey: -1670383702905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_b491b66e6a504be9b563587cc311ea20
+type: Request
+parentId: fld_838ee298adf14b698535a94060bbcb69
+modified: 1670452743857
+created: 1670452692126
+url: "{{ _['project-bd2'] }}/user/delete"
+name: DeleteUser
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "test@gmail.com",
+    	"password": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670383702805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
