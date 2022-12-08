@@ -1,7 +1,7 @@
 _id: req_bceb107649ad4e808349efdd994c788b
 type: Request
 parentId: fld_580ee49f84134a08b724120463ff0f84
-modified: 1670350736052
+modified: 1670485627165
 created: 1670347492067
 url: "{{ _['project-bd2'] }}/games/6383f26abf3f5893437ee2e4"
 name: GetGameById
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1669852335885
 isPrivate: false
 settingStoreCookies: true

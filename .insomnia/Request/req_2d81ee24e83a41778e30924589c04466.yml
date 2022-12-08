@@ -1,22 +1,20 @@
-_id: req_e1b06a81cd6b480d8f69aa386e7d18f1
+_id: req_2d81ee24e83a41778e30924589c04466
 type: Request
-parentId: fld_580ee49f84134a08b724120463ff0f84
-modified: 1670485610531
-created: 1670482256171
-url: "{{ _['project-bd2'] }}/games/"
-name: CreateGame
+parentId: fld_aa6c54ed769345f483c64267e2ad3b82
+modified: 1670485796405
+created: 1670485669329
+url: "{{ _['project-bd2'] }}/customers"
+name: CreateCustomer
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "The last of us",
-      "purchase_price": 100,
-      "rental_price": 10,
-      "genres": ["Accion"],
-      "platforms": ["PlayStation 4"],
-      "stock": 100
+    	"name": "Owner2",
+    	"dni": "0401200200618",
+    	"phone": 99562144,
+    	"address": "src"
     }
 parameters: []
 headers:
@@ -25,7 +23,7 @@ headers:
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1669852335835
+metaSortKey: -1669852393672
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
