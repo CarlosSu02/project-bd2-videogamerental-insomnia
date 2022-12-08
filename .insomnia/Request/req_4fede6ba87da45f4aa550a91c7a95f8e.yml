@@ -1,29 +1,26 @@
-_id: req_8b4833f2ec8949ab81b0c34b9a4f962a
+_id: req_4fede6ba87da45f4aa550a91c7a95f8e
 type: Request
-parentId: fld_838ee298adf14b698535a94060bbcb69
-modified: 1670474507470
-created: 1670443001324
-url: "{{ _['project-bd2'] }}/user/update"
-name: UpdateUser
+parentId: fld_a52162491a344b70b49f18aa18493426
+modified: 1670453428854
+created: 1670453388061
+url: "{{ _['project-bd2'] }}/roles/639104064731ed521e905d2a"
+name: UpdateRole
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Admin",
-    	"phone": 97779910,
-    	"role": "admin"
+    	"type": "no edit"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f81bf9ed3532483e8e6a5cc750c6d9d3
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1670383702855
+metaSortKey: -1670385681202
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

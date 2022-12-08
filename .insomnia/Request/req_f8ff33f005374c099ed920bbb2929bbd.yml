@@ -1,7 +1,7 @@
 _id: req_f8ff33f005374c099ed920bbb2929bbd
 type: Request
 parentId: fld_a52162491a344b70b49f18aa18493426
-modified: 1670387967022
+modified: 1670453376898
 created: 1670387659549
 url: "{{ _['project-bd2'] }}/roles"
 name: GetRoles
@@ -10,7 +10,9 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% request 'cookie', 'access_token', 0 %}"
 metaSortKey: -1670387659549
 isPrivate: false
 settingStoreCookies: true

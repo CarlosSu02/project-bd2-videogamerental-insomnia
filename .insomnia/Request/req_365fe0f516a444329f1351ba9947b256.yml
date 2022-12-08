@@ -1,25 +1,26 @@
-_id: req_b491b66e6a504be9b563587cc311ea20
+_id: req_365fe0f516a444329f1351ba9947b256
 type: Request
-parentId: fld_838ee298adf14b698535a94060bbcb69
-modified: 1670472000959
-created: 1670452692126
-url: "{{ _['project-bd2'] }}/user/delete"
-name: DeleteUser
+parentId: fld_a52162491a344b70b49f18aa18493426
+modified: 1670459501499
+created: 1670453326285
+url: "{{ _['project-bd2'] }}/roles"
+name: CreateRole
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "test1@gmail.com",
-    	"password": "test1"
+    	"type": " tEsT oRacIon "
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1670383702805
+authentication:
+  type: bearer
+  token: "{% request 'cookie', 'access_token', 0 %}"
+metaSortKey: -1670387659499
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

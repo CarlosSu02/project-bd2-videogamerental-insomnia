@@ -1,7 +1,7 @@
 _id: req_e3567438e85747e1acf06addad59b4a9
 type: Request
 parentId: fld_304622cc9633434c89c58398e4d14351
-modified: 1670449268006
+modified: 1670474472119
 created: 1670435255591
 url: "{{ _['project-bd2'] }}/auth/change_password"
 name: ChangePassword
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "testt@gmail.com",
-    	"password": "testt",
-    	"new_password": "test"
+    	"email": "admin@gmail.com",
+    	"password": "admin1",
+    	"new_password": "admin"
     }
 parameters: []
 headers:

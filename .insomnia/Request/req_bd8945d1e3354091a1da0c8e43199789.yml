@@ -1,0 +1,21 @@
+_id: req_bd8945d1e3354091a1da0c8e43199789
+type: Request
+parentId: wrk_3dce4b91c72c4b4cbd95047629dfdba2
+modified: 1670458655165
+created: 1670458640427
+url: "{{ _['project-bd2'] }}/auth/ping"
+name: Ping
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670458640427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

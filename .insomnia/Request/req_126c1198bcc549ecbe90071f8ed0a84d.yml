@@ -1,29 +1,31 @@
-_id: req_8b4833f2ec8949ab81b0c34b9a4f962a
+_id: req_126c1198bcc549ecbe90071f8ed0a84d
 type: Request
-parentId: fld_838ee298adf14b698535a94060bbcb69
-modified: 1670474507470
-created: 1670443001324
-url: "{{ _['project-bd2'] }}/user/update"
-name: UpdateUser
+parentId: fld_0df5095b0c374c0a97bc9d41f89f0ec2
+modified: 1670478588530
+created: 1670459496843
+url: "{{ _['project-bd2'] }}/companies"
+name: CreateCompany
 description: ""
-method: PATCH
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Admin",
-    	"phone": 97779910,
-    	"role": "admin"
+    	"name": "C Games",
+    	"email": "cgames@gmail.com",
+    	"phone": 99562144,
+    	"address": "test1",
+    	"num_branches": 1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f81bf9ed3532483e8e6a5cc750c6d9d3
+    id: pair_8103e8fa337e49569f3140c125a9d15a
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1670383702855
+metaSortKey: -1669852322500
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

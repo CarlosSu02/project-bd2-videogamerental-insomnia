@@ -1,25 +1,30 @@
-_id: req_0ce910cac42a4c5ab878a15b9d1b484b
+_id: req_e5221477ffc84d6f88869b3ed60d6590
 type: Request
 parentId: fld_304622cc9633434c89c58398e4d14351
-modified: 1670479860238
-created: 1670388176723
-url: "{{ _['project-bd2'] }}/auth/signin"
-name: Signin
+modified: 1670479865715
+created: 1670463576051
+url: "{{ _['project-bd2'] }}/auth/signup"
+name: Signup Others (Not Owner)
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
+    	"name": "Admin",
+    	"phone": 99562144,
     	"email": "admin@gmail.com",
-    	"password": "admin"
+    	"password": "admin",
+    	"role": "employee",
+    	"company_email": "bgames@gmail.com"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_1f20adb8c2c74bd69b4412958c43415c
 authentication: {}
-metaSortKey: -1670371595733
+metaSortKey: -1670376554183.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
