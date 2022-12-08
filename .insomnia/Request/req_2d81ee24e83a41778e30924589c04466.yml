@@ -1,7 +1,7 @@
 _id: req_2d81ee24e83a41778e30924589c04466
 type: Request
 parentId: fld_aa6c54ed769345f483c64267e2ad3b82
-modified: 1670519770040
+modified: 1670535448790
 created: 1670485669329
 url: "{{ _['project-bd2'] }}/customers"
 name: CreateCustomer
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"name": "Customer1",
-    	"dni": "0401200200618",
+    	"dni": "0401200200611",
     	"phone": 99562144,
     	"address": "src"
     }

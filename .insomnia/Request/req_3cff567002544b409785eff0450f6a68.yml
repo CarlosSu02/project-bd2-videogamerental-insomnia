@@ -1,31 +1,29 @@
-_id: req_126c1198bcc549ecbe90071f8ed0a84d
+_id: req_3cff567002544b409785eff0450f6a68
 type: Request
-parentId: fld_0df5095b0c374c0a97bc9d41f89f0ec2
-modified: 1670535446367
-created: 1670459496843
-url: "{{ _['project-bd2'] }}/companies"
-name: CreateCompany
+parentId: fld_9b1101fcd796431e9ef5628cfa1e9dec
+modified: 1670541308189
+created: 1670536304938
+url: "{{ _['project-bd2'] }}/rental/update"
+name: UpdateRent
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "B Games",
-    	"email": "bgames@gmail.com",
-    	"phone": 99562144,
-    	"address": "test1",
-    	"num_branches": 1
+    	"game": "Grand Theft Auto V",
+    	"_id_rent": "63925f457c16be05e0ac23d5",
+    	"returned": true
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_8103e8fa337e49569f3140c125a9d15a
+    id: pair_c117688792bf43deb5053df1cd6421db
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1669852322500
+metaSortKey: -1670496919927.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

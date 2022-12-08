@@ -1,0 +1,10 @@
+_id: fld_128bdd0ad3c84d68a375513d06dc9ced
+type: RequestGroup
+parentId: wrk_3dce4b91c72c4b4cbd95047629dfdba2
+modified: 1670539232751
+created: 1670539221136
+name: Purchases
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1669852322400

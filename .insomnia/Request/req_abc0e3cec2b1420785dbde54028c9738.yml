@@ -1,10 +1,10 @@
-_id: req_e1e01940597a41c4beedb458747c42a0
+_id: req_abc0e3cec2b1420785dbde54028c9738
 type: Request
-parentId: fld_63f43b09f32d43538ab40a6cf36cc184
-modified: 1670535202557
-created: 1670520131160
-url: "{{ _['project-bd2'] }}/reports"
-name: GetReports
+parentId: fld_128bdd0ad3c84d68a375513d06dc9ced
+modified: 1670541683690
+created: 1670539238152
+url: "{{ _['project-bd2'] }}/purchases/bills"
+name: GetBills
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1669852335910
+metaSortKey: -1670539238152
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

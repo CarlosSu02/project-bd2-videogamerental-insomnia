@@ -1,31 +1,28 @@
-_id: req_126c1198bcc549ecbe90071f8ed0a84d
+_id: req_239ac2722711464c8f70e200549bf7e3
 type: Request
-parentId: fld_0df5095b0c374c0a97bc9d41f89f0ec2
-modified: 1670535446367
-created: 1670459496843
-url: "{{ _['project-bd2'] }}/companies"
-name: CreateCompany
+parentId: fld_9b1101fcd796431e9ef5628cfa1e9dec
+modified: 1670541309630
+created: 1670535199428
+url: "{{ _['project-bd2'] }}/rental/game"
+name: CreateRent
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "B Games",
-    	"email": "bgames@gmail.com",
-    	"phone": 99562144,
-    	"address": "test1",
-    	"num_branches": 1
+      "game": "Grand Theft Auto V",
+    	"dni": "0401200200618",
+    	"days": 1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_8103e8fa337e49569f3140c125a9d15a
 authentication:
   type: bearer
   token: "{% request 'cookie', 'access_token', 0 %}"
-metaSortKey: -1669852322500
+metaSortKey: -1670535199428
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
