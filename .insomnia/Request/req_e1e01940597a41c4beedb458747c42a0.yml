@@ -1,0 +1,23 @@
+_id: req_e1e01940597a41c4beedb458747c42a0
+type: Request
+parentId: fld_63f43b09f32d43538ab40a6cf36cc184
+modified: 1670520152517
+created: 1670520131160
+url: "{{ _['project-bd2'] }}/reports"
+name: GetReports
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% request 'cookie', 'access_token', 0 %}"
+metaSortKey: -1669852335910
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
