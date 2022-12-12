@@ -1,7 +1,7 @@
 _id: req_e5221477ffc84d6f88869b3ed60d6590
 type: Request
 parentId: fld_304622cc9633434c89c58398e4d14351
-modified: 1670532236901
+modified: 1670866628620
 created: 1670463576051
 url: "{{ _['project-bd2'] }}/auth/signup"
 name: Signup Others (Not Owner)
@@ -15,6 +15,7 @@ body:
     	"phone": 99562144,
     	"email": "admin@gmail.com",
     	"password": "admin",
+    	"confirm_password": "admin",
     	"role": "admin",
     	"company_email": "bgames@gmail.com"
     }
